@@ -1,0 +1,6 @@
+parameters:
+  chub.search.service.class: ChubProduction\SearchBundle\Service\Search
+
+services:
+  search:
+    class: %chub.search.service.class%

@@ -1,0 +1,672 @@
+{
+    "hash": "fe8702d25288469c55d348994bb63ab1",
+    "packages": [
+        {
+            "name": "doctrine/common",
+            "version": "2.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common",
+                "reference": "bb0aebbf234db52df476a2b473d434745b34221c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/doctrine/common/zipball/bb0aebbf234db52df476a2b473d434745b34221c",
+                "reference": "bb0aebbf234db52df476a2b473d434745b34221c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "time": "1348120518",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common": "lib/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com",
+                    "homepage": "http://www.instaclick.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com",
+                    "homepage": "http://jmsyst.com",
+                    "role": "Developer of wrapped JMSSerializerBundle"
+                }
+            ],
+            "description": "Common Library for Doctrine projects",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "collections",
+                "spl",
+                "eventmanager",
+                "annotations",
+                "persistence"
+            ]
+        },
+        {
+            "name": "symfony/config",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Config",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Config",
+                "reference": "f12982ffa9843be853c9b61fd5a7896f00aa5fd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Config/archive/f12982ffa9843be853c9b61fd5a7896f00aa5fd7.zip",
+                "reference": "f12982ffa9843be853c9b61fd5a7896f00aa5fd7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Config": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Config Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/dependency-injection",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/DependencyInjection",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/DependencyInjection",
+                "reference": "v2.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/DependencyInjection/zipball/v2.1.3",
+                "reference": "v2.1.3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/yaml": "2.1.*",
+                "symfony/config": "2.1.*"
+            },
+            "suggest": {
+                "symfony/yaml": "2.1.*",
+                "symfony/config": "2.1.*"
+            },
+            "time": "1350916632",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\DependencyInjection": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DependencyInjection Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher",
+                "reference": "b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/EventDispatcher/archive/b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485.zip",
+                "reference": "b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/dependency-injection": "2.1.*"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "2.1.*",
+                "symfony/http-kernel": "2.1.*"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Filesystem",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Filesystem",
+                "reference": "cc45afc276fab51b086137ddf37d507379d1cf3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Filesystem/archive/cc45afc276fab51b086137ddf37d507379d1cf3e.zip",
+                "reference": "cc45afc276fab51b086137ddf37d507379d1cf3e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Filesystem": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Filesystem Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/framework-bundle",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Bundle/FrameworkBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/FrameworkBundle",
+                "reference": "19bedb254f61156c825144e389a335a55eb83311"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/FrameworkBundle/archive/19bedb254f61156c825144e389a335a55eb83311.zip",
+                "reference": "19bedb254f61156c825144e389a335a55eb83311",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "doctrine/common": ">=2.2,<2.4-dev",
+                "symfony/dependency-injection": "2.1.*",
+                "symfony/config": "2.1.*",
+                "symfony/event-dispatcher": "2.1.*",
+                "symfony/http-kernel": "2.1.*",
+                "symfony/filesystem": "2.1.*",
+                "symfony/routing": "2.1.*",
+                "symfony/templating": "2.1.*",
+                "symfony/translation": "2.1.*"
+            },
+            "require-dev": {
+                "symfony/finder": "2.1.*"
+            },
+            "suggest": {
+                "symfony/console": "2.1.*",
+                "symfony/finder": "2.1.*",
+                "symfony/form": "2.1.*",
+                "symfony/validator": "2.1.*"
+            },
+            "time": "1352368308",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Bundle\\FrameworkBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony FrameworkBundle",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/HttpFoundation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/HttpFoundation",
+                "reference": "a961c2ca3106a074bfb5cbadc7e10423123d1a82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/HttpFoundation/archive/a961c2ca3106a074bfb5cbadc7e10423123d1a82.zip",
+                "reference": "a961c2ca3106a074bfb5cbadc7e10423123d1a82",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1352728711",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\HttpFoundation": "",
+                    "SessionHandlerInterface": "Symfony/Component/HttpFoundation/Resources/stubs"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/HttpKernel",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/HttpKernel",
+                "reference": "9c75c75993f009c3183696ab9ed7320f3df351b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/HttpKernel/archive/9c75c75993f009c3183696ab9ed7320f3df351b8.zip",
+                "reference": "9c75c75993f009c3183696ab9ed7320f3df351b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/event-dispatcher": "2.1.*",
+                "symfony/http-foundation": "2.1.*"
+            },
+            "require-dev": {
+                "symfony/browser-kit": "2.1.*",
+                "symfony/class-loader": "2.1.*",
+                "symfony/config": "2.1.*",
+                "symfony/console": "2.1.*",
+                "symfony/dependency-injection": "2.1.*",
+                "symfony/finder": "2.1.*",
+                "symfony/process": "2.1.*",
+                "symfony/routing": "2.1.*"
+            },
+            "suggest": {
+                "symfony/browser-kit": "2.1.*",
+                "symfony/class-loader": "2.1.*",
+                "symfony/config": "2.1.*",
+                "symfony/console": "2.1.*",
+                "symfony/dependency-injection": "2.1.*",
+                "symfony/finder": "2.1.*"
+            },
+            "time": "1352544437",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\HttpKernel": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony HttpKernel Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/routing",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Routing",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Routing",
+                "reference": "1fa470936dbeb4e59a3fd8fdd72f8922ee43a6ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Routing/archive/1fa470936dbeb4e59a3fd8fdd72f8922ee43a6ae.zip",
+                "reference": "1fa470936dbeb4e59a3fd8fdd72f8922ee43a6ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/config": "2.1.*",
+                "symfony/yaml": "2.1.*",
+                "symfony/http-kernel": "2.1.*",
+                "doctrine/common": ">=2.2,<2.4-dev"
+            },
+            "suggest": {
+                "doctrine/common": ">=2.2,<2.4-dev",
+                "symfony/config": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Routing": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Routing Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/templating",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Templating",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Templating",
+                "reference": "61c1c111df8c32dcdfcf29d81b27fa4e5386f7dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Templating/archive/61c1c111df8c32dcdfcf29d81b27fa4e5386f7dc.zip",
+                "reference": "61c1c111df8c32dcdfcf29d81b27fa4e5386f7dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Templating": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Templating Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Translation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Translation",
+                "reference": "0e32a19712ab341e87754042614917ee95a4fea3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Translation/archive/0e32a19712ab341e87754042614917ee95a4fea3.zip",
+                "reference": "0e32a19712ab341e87754042614917ee95a4fea3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/config": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "suggest": {
+                "symfony/config": "2.1.*",
+                "symfony/yaml": "2.1.*"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Translation": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "http://symfony.com"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml",
+                "reference": "e1aff6871fd39607d7ce638ff6b1f971cde6fe6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Yaml/archive/e1aff6871fd39607d7ce638ff6b1f971cde6fe6a.zip",
+                "reference": "e1aff6871fd39607d7ce638ff6b1f971cde6fe6a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1352368308",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ]
+}
