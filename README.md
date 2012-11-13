@@ -5,6 +5,9 @@ Search Symfony2 bundle. Provides easy global search service for your site.
 
 [![Build Status](https://secure.travis-ci.org/ChubV/SearchBundle.png)](http://travis-ci.org/ChubV/SearchBundle)
 
+[![knp](http://knpbundles.com/ChubV/SearchBundle/badge-short)](http://knpbundles.com/ChubV/SearchBundle)
+
+
 Installation
 ------------
 
