@@ -23,7 +23,7 @@ interface SearchProviderInterface
 	public function getName();
 
 	/**
-	 * Return provider name
+	 * Return provider title
 	 *
 	 * @return string
 	 */
