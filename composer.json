@@ -2,6 +2,7 @@
     "name": "chub/search-bundle",
     "type": "symfony-bundle",
     "description": "Site search bundle for Symfony2",
+    "version": "3.0.0",
     "keywords": ["search bundle"],
     "homepage": "https://github.com/ChubV/SearchBundle",
     "authors": [
@@ -12,18 +13,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/framework-bundle": "2.2.*",
-        "symfony/yaml": "2.2.*"
+        "php": ">=5.5",
+        "symfony/framework-bundle": "2.*",
+        "symfony/yaml": "2.*"
     },
     "autoload": {
         "psr-0": { "ChubProduction\\SearchBundle": "" }
     },
     "minimum-stability": "dev",
-    "target-dir": "ChubProduction/SearchBundle",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2.x-dev"
-        }
-    }
+    "target-dir": "ChubProduction/SearchBundle"
 }
